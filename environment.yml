@@ -4,13 +4,19 @@ channels:
   - conda-forge
 dependencies:
   - python==3.8.5
-  - pandas
-  - numpy
   - pip
   - pip:
-    - plotly
-    - tqdm 
+    - plotly==4.14.3
+    - streamlit==0.80.0 
     - redis
-    - praw>=6.1.1
-    - python-dotenv
-    - docker-compose
+    - word2number==1.1
+    - pandas==1.2.3
+    - opencv-python==4.5.1.48
+    - pdfplumber==0.5.27
+    - nltk==3.6.1
+    - regex==2021.4.4
+    - pytesseract==0.3.7
+    - requests==2.25.1
+    - Pillow==8.2.0
+    
+   
