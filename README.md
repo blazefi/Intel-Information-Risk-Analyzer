@@ -7,3 +7,5 @@ OS Required : **Debian linux**
 2) Do `git clone ` and `cd Intel-Information-Risk-Analyzer` directory <br>
 
 3) In the directory do `conda env create -f environment.yml`
+
+4) Then type `streamlit run app.py`
