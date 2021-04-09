@@ -1,0 +1,16 @@
+name: nlp-workshop
+channels:
+  - derickl
+  - conda-forge
+dependencies:
+  - python==3.8.5
+  - pandas
+  - numpy
+  - pip
+  - pip:
+    - plotly
+    - tqdm 
+    - redis
+    - praw>=6.1.1
+    - python-dotenv
+    - docker-compose
